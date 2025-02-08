@@ -4,6 +4,7 @@ import { FeaturedItems } from "@/components/featured";
 import { Truck, TimerReset, FastForward } from 'lucide-react'
 import { Separator } from "@/components/ui/separator"
 import PrescriptionForm from "@/components/ui/PrescriptionForm";
+import AboutPage from "@/components/ui/about";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold text-center mt-10 mb-6">Featured Items</h1>
       <FeaturedItems/>
       <Divider />
+      <AboutPage />
       
       
       
