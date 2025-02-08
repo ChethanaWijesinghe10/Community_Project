@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-5 md:px-20">
       <div className="relative w-full h-64">
-        <Image src="/pharmacy-1.jpg" alt="Pharmacy Background" layout="fill" objectFit="cover" className="opacity-80" />
+        <Image src="/about.jpg" alt="Pharmacy Background" layout="fill" objectFit="cover" className="opacity-80" />
         <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl md:text-5xl font-bold text-green-700">About Us</h1>
       </div>
 
